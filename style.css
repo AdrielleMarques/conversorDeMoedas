@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://img.freepik.com/vetores-gratis/fundo-realista-de-luzes-de-neon_23-2148897041.jpg");
+  background-color: #000000;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2em #f00afe;
+  border-radius: 5px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 18px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 150px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #f5e1f7, #ee6cf7);
+  box-shadow: 0 0 0.5em #f00afe;
+}
+
+button:hover {
+  transform: translateY(-0.25em);
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
