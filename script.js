@@ -1,4 +1,4 @@
-function Converter() {
+function converterDolarEmReal() {
   var valorElemento = document.getElementById("valor");
   var valor = valorElemento.value;
   var valorEmDolarNumerico = parseFloat(valor);
