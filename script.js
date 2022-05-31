@@ -2,7 +2,7 @@
 function converterMoeda() {
   //Moeda que será convertida
   var tipoMoedaUm = document.querySelector(".tipoMoedaUm").value;
-  //Valor que será conbertido
+  //Valor que será convertido
   var valorMoedaUm = Number(document.querySelector("#valorMoedaUm").value);
   //Moeda desejada para a conversão
   var tipoMoedaDois = document.querySelector(".tipoMoedaDois").value;
@@ -47,3 +47,31 @@ document.querySelector("#valorMoedaDois").innerHTML = valorConvertido.toFixed(
 const converterButton = document.querySelector("button");
 //Ativação do butão
 converterButton.onclick = converterMoeda;
+
+
+/*
+let customFunction;
+   const usd = {
+     eur: (value) => value / 1.19,
+     brl: (value) => value * 5.51,
+     usd: (value) => value,
+   }
+   
+   const brl = {
+        usd: (value) => value / 5.51,
+        eur: (value) => value / 6.58,
+        brl: (value) => value,
+    }
+    
+    const eur = {
+        brl: (value) => value * 6.58,
+        usd: (value) => value * 1.19,
+        eur: (value) => value,
+    }
+    
+    if(tipoMoedaUm === 'brl') customFunction = brl [tipoMoedaDois];
+
+    if(tipoMoedaUm === 'usd') customFunction = usd[tipoMoedaDois];
+
+    if(tipoMoedaUm === 'eur') customFunction = eur [tipoMoedaDois];
+    */
