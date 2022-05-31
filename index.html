@@ -17,10 +17,34 @@
           Descubra os valores em real R$
         </p>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo" alt=""><br><br>
-        <label for="moedas">Insira o valor</label><br>
-        <input type="number" id="valor" size="2" /><br>
-        <button class="raise" type="submit" onclick="converterDolarEmReal()">Converter</button>
-        <h2 id="valorConvertido"></h2>
+
+        <label class="tipo" for="current"> De: </label>
+      <section class="moedaUm">
+        <div>
+          <select class="tipoMoedaUm" name="current">
+            <option value="brl">BRL</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+           </select>
+        </div>
+        <div> 
+          <input id="valorMoedaUm" type="number" placeholder="00.00" required autofocus>
+        </div>
+      </section>
+      <label class="tipo" for="currentValor">Para:</label>       
+      <section class="moedaDois">
+        <div>
+          <select class="tipoMoedaDois" name="current"> 
+             <option value="usd">USD</option>
+             <option value="eur">EUR</option>
+             <option value="brl">BRL</option>
+       </select>
+        </div>
+        <div>
+        <p id="valorMoedaDois"></p>
+        </div>
+      </section>
+        <button>Converter</button>
       </div>     
     </main>
   </body>

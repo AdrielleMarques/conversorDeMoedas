@@ -4,9 +4,7 @@ body {
   background-image: url("https://img.freepik.com/vetores-gratis/fundo-realista-de-luzes-de-neon_23-2148897041.jpg");
   background-color: #000000;
   background-size: 100%;
-  background-position: center;
   background-repeat: no-repeat;
-  color: white;
 }
 
 .container {
@@ -22,33 +20,56 @@ body {
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
+  color: ;
   font-size: 18px;
 }
 
-.titulo-pagina {
+.page-title {
+  color: #ffffff;
   margin: 0 0 5px;
 }
 
-.subtitulo{
+.page-subtitle {
+  color: #ffffff;
   margin-top: 5px;
 }
 
-.logo {
-  width: 150px;
+.moedaUm, .moedaDois {
+  display: flex
 }
 
-
-input {
-  margin: 12px;
-  padding: 6px;
-  border-radius: 5px;
+.tipo {
+  display: block;
+  text-shadow: 2px 2px #ff0000;
+  color: whitesmoke;
 }
 
-/*
-label {
-  color: white;
+.tipoMoedaUm, .tipoMoedaDois {
+  margin: 20px;
+  border-radius: 10px;
+  padding: 0.75rem;
+  cursor: pointer;
+  background-color: #fff;
 }
-*/
+
+#valorMoedaUm {
+  width: 12rem;
+  color: rgb(35, 35, 35);
+  padding: 0.75rem;
+  border-radius: 20px;
+}
+
+#valorMoedaDois {
+  background-color: white; 
+  width: 12rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+}
+
+#valorMoedaUm::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
 
 button {
   margin-top: 12px;
@@ -61,10 +82,3 @@ button {
 button:hover {
   transform: translateY(-0.25em);
 }
-
-/*
-h2 {
-  color: #ffffff;
-  font-size: 30px;
-}
-*/
